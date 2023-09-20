@@ -72,6 +72,13 @@ body {
   padding: 10% 20% !important;
 }
 
-.texto-claro{
-  color: aliceblue !important;
+/* Cambiar color del texto del enlace no visitado */
+.tab-boton {
+  color: #c3c5c0 !important;
 }
+
+/* Cambiar color del texto del enlace cuando se pasa el mouse por encima */
+.tab-boton:hover {
+  color: #fff !important;
+}
+

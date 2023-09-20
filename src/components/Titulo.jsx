@@ -1,4 +1,5 @@
-import { Row, Col, Card, Button } from "react-bootstrap"
+import { Row, Col, Card } from "react-bootstrap"
+import Contactar from "./Contactar"
 const Titulo = () => {
     return (
         <>
@@ -18,10 +19,19 @@ const Titulo = () => {
                         </Card.Text>
                     </Row>
                 </Col>
-                <Col xs={2} >
-                    <Button variant="success">
-                        Contactar
-                    </Button>
+                <Col xs={3} >
+                    <Row>
+                        <Contactar />
+                    </Row>
+                    <Row>
+
+                        <div className="role">
+                            <div className="role-color" style={{background: 'orange'}}>
+                                <p>role title</p>
+                            </div>
+                        </div>
+
+                    </Row>
                 </Col>
             </Row>
         </>
