@@ -20,17 +20,8 @@ const Titulo = () => {
                     </Row>
                 </Col>
                 <Col xs={3} >
-                    <Row>
+                    <Row >
                         <Contactar />
-                    </Row>
-                    <Row>
-
-                        <div className="role">
-                            <div className="role-color" style={{background: 'orange'}}>
-                                <p>role title</p>
-                            </div>
-                        </div>
-
                     </Row>
                 </Col>
             </Row>

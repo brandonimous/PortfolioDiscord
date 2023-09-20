@@ -82,3 +82,24 @@ body {
   color: #fff !important;
 }
 
+
+.etiqueta {
+  background-color: #292b2f;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  margin: 1px;
+}
+
+.circulo {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.nombre {
+  flex-grow: 1; /* El texto ocupa todo el espacio disponible */
+}
