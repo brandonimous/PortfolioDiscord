@@ -103,3 +103,47 @@ body {
 .nombre {
   flex-grow: 1; /* El texto ocupa todo el espacio disponible */
 }
+
+.proyecto {
+  width: 100%; /* Establece el ancho inicial del componente */
+  height: 100%; /* Establece la altura inicial del componente */
+  transition: transform 0.6s; /* Añade una transición suave para el efecto */
+}
+
+.proyecto:hover {
+  transform: scale(1.2) translateY(-9%); /* Escala el componente al 120% del tamaño original */
+}
+
+
+/* Estilos para el scrollbar */
+::-webkit-scrollbar {
+  width: 1px; /* Ancho del scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color de fondo del track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555; /* Color de la barra del scrollbar */
+}
+
+.imagen-hover {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.imagen-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.iconos{
+  width: 30%;
+  margin: 10% 10% 0% 10%;
+  transition: transform 0.2s
+}
+
+.iconos:hover{
+  opacity: 0.6;
+  transform: scale(1.2) ;
+}

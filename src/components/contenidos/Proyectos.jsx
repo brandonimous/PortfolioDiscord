@@ -1,36 +1,25 @@
-import { Container, Row, Card, Button } from "react-bootstrap"
+import { Container, Row, } from "react-bootstrap"
+import TarjetaProyecto from "./TarjetaProyecto"
 
 const Proyectos = () => {
     return (
         <>
-            <Container className="contenido-tab">
-                <Row>
-                    <Card style={{ width: '100%' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                </Row>
+            <Container className="contenido-tab ">
 
-                <Row>
-                    <Card style={{ width: '100%' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                </Row>
+                <TarjetaProyecto
+                    titulo="SISLAB"
+                    descripcion="Sistema de laboratorio para la Universidad de Sonora,
+                    permite a los profesores agendar los laboratorios, los reactivos y herramientas
+                    para su uso durante las prácticas."
+                    imagen="../../../public/img/proyectos/sislab-img.jpeg"
+                    url="0" />
+
+                <TarjetaProyecto
+                    titulo="Portfolio"
+                    descripcion="Este mismo sitio web, desarrollado con React y Bootstrap, 
+                    no es más ni menos que mi portfolio profesional."
+                    imagen="../../../public/img/proyectos/sislab-img.jpeg"
+                    url="0" />
 
             </Container>
 

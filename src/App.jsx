@@ -10,7 +10,7 @@ function App() {
       <div className='image-container'>
         <Image src="/public/img/japan.jpg" style={{ width: '40rem', borderRadius: '2% 2% 0% 0%' }} />
       </div>
-      <Card className='bg-dark text-white' style={{ width: '40rem', height: '40rem', borderRadius: '0% 0% 2% 2%' }}>
+      <Card className='bg-dark text-white' style={{ width: '40rem', height: '100%', borderRadius: '0% 0% 2% 2%' }}>
         <Card.Body>
           <Titulo />
           <hr className='opaco' />
@@ -21,7 +21,6 @@ function App() {
           <p className='text-end opaco'>© 2023 Brandon Perez</p>
         </Card.Footer>
       </Card>
-
 
     </>
   )

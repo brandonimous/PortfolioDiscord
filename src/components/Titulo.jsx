@@ -1,5 +1,8 @@
 import { Row, Col, Card } from "react-bootstrap"
 import Contactar from "./Contactar"
+import Github from '../../public/img/github24.svg'
+import Linkedin from '../../public/img/linkedin24.svg'
+
 const Titulo = () => {
     return (
         <>
@@ -22,6 +25,16 @@ const Titulo = () => {
                 <Col xs={3} >
                     <Row >
                         <Contactar />
+                    </Row>
+                    <Row>
+                        <div style={{ width: '100%', height: '100%' }}>
+                            <a href="https://github.com/brandonimous" target="_blank" rel="noreferrer">
+                                <img src={Github} alt="Github" className="iconos" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/brandonf-perez/" target="_blank" rel="noreferrer">
+                                <img src={Linkedin} alt="Linkedin" className="iconos" />
+                            </a>
+                        </div>
                     </Row>
                 </Col>
             </Row>

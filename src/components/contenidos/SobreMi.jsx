@@ -1,5 +1,5 @@
-import { Container, Row, Col } from "react-bootstrap"
-import Etiqueta from "../Etiqueta"
+import { Container, Row } from "react-bootstrap"
+import Tecnologias from "./Tecnologias"
 
 const SobreMi = () => {
     return (
@@ -29,39 +29,10 @@ const SobreMi = () => {
                     </p>
                 </Row>
 
+                <hr className='opaco' />
+
                 <Row>
-                    <Col>
-                        <Etiqueta color={{ color: '#ffff00' }}
-                            nombre="Javascript" />
-                    </Col>
-                    <Col>
-                        <Etiqueta color={{ color: '#3972a1' }}
-                            nombre="Python" />
-                    </Col>
-                    <Col>
-                        <Etiqueta color={{ color: '#f16a30' }}
-                            nombre="HTML" />
-                    </Col>
-                    <Col>
-                        <Etiqueta color={{ color: '#006bc0' }}
-                            nombre="Javascript" />
-                    </Col>
-                    <Col>
-                        <Etiqueta color={{ color: '#90c53f' }}
-                            nombre="Express.js" />
-                    </Col>
-                    <Col>
-                        <Etiqueta color={{ color: '#672179' }}
-                            nombre="C#" />
-                    </Col>
-                    <Col>
-                        <Etiqueta color={{ color: '#880afb' }}
-                            nombre="Bootstrap" />
-                    </Col>
-                    <Col>
-                        <Etiqueta color={{ color: '#086e92' }}
-                            nombre="MySQL" />
-                    </Col>
+                    <Tecnologias />
                 </Row>
 
             </Container>
