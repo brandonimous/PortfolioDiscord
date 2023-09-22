@@ -1,6 +1,7 @@
 import { Container, } from "react-bootstrap"
 import TarjetaProyecto from "./TarjetaProyecto"
 import Sislab from '../../img/proyectos/sislab-img-min.jpeg'
+import Portfolio from '../../img/proyectos/portfolio-img-min.png'
 
 const Proyectos = () => {
     return (
@@ -19,7 +20,7 @@ const Proyectos = () => {
                     titulo="Portfolio"
                     descripcion="Este mismo sitio web, desarrollado con React y Bootstrap, 
                     no es más ni menos que mi portfolio profesional."
-                    imagen={Sislab}
+                    imagen={Portfolio}
                     url="0" />
 
             </Container>

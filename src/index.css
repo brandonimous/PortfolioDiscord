@@ -38,6 +38,8 @@ body {
   /* Oculta el contenido que se desborda del contenedor */
   border-radius: 50%;
   /* Hace que el contenedor tenga esquinas redondeadas, creando un círculo */
+  
+  transition: transform 0.2s
 }
 
 .contenedor-perfil img {
@@ -47,6 +49,10 @@ body {
   /* La altura se ajustará automáticamente para mantener la proporción original */
   border-radius: 50%;
   /* Esto asegura que la imagen dentro del contenedor también sea redonda */
+}
+
+.contenedor-perfil:hover{
+  transform: scale(1.1) ;
 }
 
 .descripcion {
@@ -91,6 +97,7 @@ body {
   display: inline-flex;
   align-items: center;
   margin: 1px;
+  transition: transform 0.2s
 }
 
 .circulo {
@@ -102,6 +109,10 @@ body {
 
 .nombre {
   flex-grow: 1; /* El texto ocupa todo el espacio disponible */
+}
+
+.etiqueta:hover {
+  transform: scale(1.1) ;
 }
 
 .proyecto {
