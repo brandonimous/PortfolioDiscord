@@ -2,6 +2,7 @@ import { Row, Col, Card } from "react-bootstrap"
 import Contactar from "./Contactar"
 import Github from '../../public/img/github24.svg'
 import Linkedin from '../../public/img/linkedin24.svg'
+import Perfil from '../../public/img/profile-min.jpg'
 
 const Titulo = () => {
     return (
@@ -9,7 +10,7 @@ const Titulo = () => {
             <Row className='align-items-center'>
                 <Col xs={3}>
                     <div className="contenedor-perfil">
-                        <img src="img/profile.jpg" alt="Descripción de la imagen" />
+                        <img src={Perfil} alt="Descripción de la imagen" />
                     </div>
                 </Col>
                 <Col xs={6} className='text-start'>
