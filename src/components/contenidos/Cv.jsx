@@ -7,12 +7,12 @@ const Cv = () => {
         <>
             <Container className="contenido-tab">
                 <Row>
-                    <Col>
+                    <Col xs={6} >
                         <Button href={CvEnglish} target="_blank" variant="success">
                             View English CV
                         </Button>
                     </Col>
-                    <Col>
+                    <Col xs={6} >
                         <Button href={CvEspanol} target="_blank" variant="success">
                             CV en Español
                         </Button>

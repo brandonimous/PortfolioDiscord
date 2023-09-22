@@ -1,42 +1,29 @@
 import { Row, Col, Card } from "react-bootstrap"
 import Contactar from "./Contactar"
-import Github from '../img/github24.svg'
-import Linkedin from '../img/linkedin24.svg'
 import Perfil from '../img/profile-min.jpg'
 
 const Titulo = () => {
+
     return (
         <>
             <Row className='align-items-center'>
-                <Col xs={3}>
+                <Col xs={4} md={3}>
                     <div className="contenedor-perfil">
                         <img src={Perfil} alt="Descripción de la imagen" />
                     </div>
                 </Col>
-                <Col xs={6} className='text-start'>
+                <Col xs={8} md={7} className='text-start'>
                     <Row>
                         <Card.Title className='bold'>Brandon Perez</Card.Title>
                     </Row>
                     <Row>
-                        <Card.Text className='opaco'>
+                        <Card.Text className='opaco subtitulo'>
                             | Software Engineer | Front End | Developer | ASP.NET | React.js |
                         </Card.Text>
                     </Row>
                 </Col>
-                <Col xs={3} >
-                    <Row >
-                        <Contactar />
-                    </Row>
-                    <Row>
-                        <div style={{ width: '100%', height: '100%' }}>
-                            <a href="https://github.com/brandonimous" target="_blank" rel="noreferrer">
-                                <img src={Github} alt="Github" className="iconos" />
-                            </a>
-                            <a href="https://www.linkedin.com/in/brandonf-perez/" target="_blank" rel="noreferrer">
-                                <img src={Linkedin} alt="Linkedin" className="iconos" />
-                            </a>
-                        </div>
-                    </Row>
+                <Col xs={12} md={2} className="text-center">
+                    <Contactar />
                 </Col>
             </Row>
         </>

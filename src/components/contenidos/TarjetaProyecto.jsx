@@ -30,7 +30,7 @@ const TarjetaProyecto = (props) => {
                         className="text-white proyecto">
                         <Card.Body>
                             <Card.Title className="text-start">{titulo}</Card.Title>
-                            <Card.Text className="text-end opaco">
+                            <Card.Text className="text-end opaco texto-responsivo">
                                 {descripcion}
                             </Card.Text>
                         </Card.Body>

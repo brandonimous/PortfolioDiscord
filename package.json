@@ -1,7 +1,6 @@
 {
   "name": "portfoliodiscord",
   "private": true,
-  "homepage": "https://brandonimous.github.io/PortfolioDiscord/build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

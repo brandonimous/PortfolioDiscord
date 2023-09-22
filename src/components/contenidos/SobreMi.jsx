@@ -4,7 +4,7 @@ import Tecnologias from "./Tecnologias"
 const SobreMi = () => {
     return (
         <>
-            <Container className="text-start contenido-tab">
+            <Container className="text-start contenido-tab texto-responsivo">
 
                 <Row>
 

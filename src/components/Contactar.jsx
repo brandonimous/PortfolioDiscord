@@ -10,7 +10,7 @@ const Contactar = () => {
     return (
         <>
 
-            <Button variant="success" onClick={handleClick}>
+            <Button variant="success" onClick={handleClick} className="boton-responsivo">
                 Contactar
             </Button>
 

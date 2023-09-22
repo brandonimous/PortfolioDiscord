@@ -1,28 +1,66 @@
 import './App.css'
-import { Card, Image } from 'react-bootstrap'
+import { Card, Image, Container, Row, Col } from 'react-bootstrap'
 import Titulo from './components/Titulo'
 import Tabs from './components/Tabs'
 import Banner from '../src/img/japan-min.jpg';
+import Github from './img/github24.svg'
+import Linkedin from './img/linkedin24.svg'
 
 function App() {
 
+  const enlaceGithub = 'https://github.com/brandonimous';
+  const enlaceLinkedin = 'https://www.linkedin.com/in/brandonf-perez/';
+
   return (
     <>
-      <div className='image-container'>
-        <Image src={Banner} style={{ width: '40rem', borderRadius: '2% 2% 0% 0%' }} />
-      </div>
-      <Card className='bg-dark text-white' style={{ width: '40rem', height: '100%', borderRadius: '0% 0% 2% 2%' }}>
-        <Card.Body>
-          <Titulo />
-          <hr className='opaco' />
-          <Tabs />
-        </Card.Body>
+      <Container>
+        <Row>
+          <Col xs={12}>
+            <div className='image-container'>
+              <Image src={Banner} style={{ width: '40rem', borderRadius: '2% 2% 0% 0%' }} />
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={12}>
+            <Card className='bg-dark text-white' style={{ width: '40rem', height: '100%', borderRadius: '0% 0% 2% 2%' }}>
+              <Card.Body>
+                <Container>
+                  <Row>
+                    <Titulo />
+                  </Row>
+                  <Row>
+                    <hr className='opaco divisor' />
+                  </Row>
+                  <Row className="justify-content-center">
+                    <Tabs />
+                  </Row>
+                </Container>
+              </Card.Body>
 
-        <Card.Footer>
-          <p className='text-end opaco'>© 2023 Brandon Perez</p>
-        </Card.Footer>
-      </Card>
-
+              <Card.Footer>
+                <Container>
+                  <Row>
+                    <Col>
+                      <div className="text-start">
+                        <a href={enlaceGithub} target="_blank" rel="noreferrer">
+                          <img src={Github} alt="Github" className="iconos" />
+                        </a>
+                        <a href={enlaceLinkedin} target="_blank" rel="noreferrer">
+                          <img src={Linkedin} alt="Linkedin" className="iconos" />
+                        </a>
+                      </div>
+                    </Col>
+                    <Col>
+                      <p className='text-end opaco'>© 2023 Brandon Perez</p>
+                    </Col>
+                  </Row>
+                </Container>
+              </Card.Footer>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
     </>
   )
 }
