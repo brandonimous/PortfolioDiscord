@@ -1,8 +1,8 @@
 import { Row, Col, Card } from "react-bootstrap"
 import Contactar from "./Contactar"
-import Github from '../../public/img/github24.svg'
-import Linkedin from '../../public/img/linkedin24.svg'
-import Perfil from '../../public/img/profile-min.jpg'
+import Github from '../img/github24.svg'
+import Linkedin from '../img/linkedin24.svg'
+import Perfil from '../img/profile-min.jpg'
 
 const Titulo = () => {
     return (

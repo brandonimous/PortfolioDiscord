@@ -1,5 +1,6 @@
-import { Container, Row, } from "react-bootstrap"
+import { Container, } from "react-bootstrap"
 import TarjetaProyecto from "./TarjetaProyecto"
+import Sislab from '../../img/proyectos/sislab-img-min.jpeg'
 
 const Proyectos = () => {
     return (
@@ -11,14 +12,14 @@ const Proyectos = () => {
                     descripcion="Sistema de laboratorio para la Universidad de Sonora,
                     permite a los profesores agendar los laboratorios, los reactivos y herramientas
                     para su uso durante las prácticas."
-                    imagen="../../../public/img/proyectos/sislab-img.jpeg"
+                    imagen={Sislab}
                     url="0" />
 
                 <TarjetaProyecto
                     titulo="Portfolio"
                     descripcion="Este mismo sitio web, desarrollado con React y Bootstrap, 
                     no es más ni menos que mi portfolio profesional."
-                    imagen="../../../public/img/proyectos/sislab-img.jpeg"
+                    imagen={Sislab}
                     url="0" />
 
             </Container>

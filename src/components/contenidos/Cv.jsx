@@ -1,4 +1,6 @@
 import { Button, Container, Row, Col } from "react-bootstrap"
+import CvEnglish from '../../doc/English-CV.pdf'
+import CvEspanol from '../../doc/Espanol-CV.pdf'
 
 const Cv = () => {
     return (
@@ -6,12 +8,12 @@ const Cv = () => {
             <Container className="contenido-tab">
                 <Row>
                     <Col>
-                        <Button href='/public/doc/English-CV.pdf' target="_blank" variant="success">
+                        <Button href={CvEnglish} target="_blank" variant="success">
                             View English CV
                         </Button>
                     </Col>
                     <Col>
-                    <Button href='/public/doc/Espanol-CV.pdf' target="_blank" variant="success">
+                        <Button href={CvEspanol} target="_blank" variant="success">
                             CV en Español
                         </Button>
                     </Col>

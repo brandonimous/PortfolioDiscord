@@ -2,7 +2,7 @@ import './App.css'
 import { Card, Image } from 'react-bootstrap'
 import Titulo from './components/Titulo'
 import Tabs from './components/Tabs'
-import Banner from '../public/img/japan-min.jpg';
+import Banner from '../src/img/japan-min.jpg';
 
 function App() {
 
