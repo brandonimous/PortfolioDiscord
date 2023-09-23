@@ -2,7 +2,7 @@ import './App.css'
 import { Card, Image, Container, Row, Col } from 'react-bootstrap'
 import Titulo from './components/Titulo'
 import Tabs from './components/Tabs'
-import Banner from '../src/img/japan-min.jpg';
+import Banner from '../src/img/background-min.jpg';
 import Github from './img/github24.svg'
 import Linkedin from './img/linkedin24.svg'
 
@@ -15,15 +15,13 @@ function App() {
     <>
       <Container>
         <Row>
-          <Col xs={12}>
-            <div className='image-container'>
-              <Image src={Banner} style={{ width: '40rem', borderRadius: '2% 2% 0% 0%' }} />
-            </div>
+          <Col xs={12} >
+            <Image src={Banner} className='contenedor img-responsiva' style={{borderRadius: '2% 2% 0% 0%' }} />
           </Col>
         </Row>
         <Row>
           <Col xs={12}>
-            <Card className='bg-dark text-white' style={{ width: '40rem', height: '100%', borderRadius: '0% 0% 2% 2%' }}>
+            <Card className='bg-dark text-white contenedor contenedor-responsivo' style={{ borderRadius: '0% 0% 2% 2%' }}>
               <Card.Body>
                 <Container>
                   <Row>

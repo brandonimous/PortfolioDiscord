@@ -7,13 +7,13 @@ const Cv = () => {
         <>
             <Container className="contenido-tab">
                 <Row>
-                    <Col xs={6} >
-                        <Button href={CvEnglish} target="_blank" variant="success">
+                    <Col xs={12} md={6} >
+                        <Button className="text-center cv" href={CvEnglish} target="_blank" variant="success">
                             View English CV
                         </Button>
                     </Col>
-                    <Col xs={6} >
-                        <Button href={CvEspanol} target="_blank" variant="success">
+                    <Col xs={12} md={6} >
+                        <Button className=" text-center cv" href={CvEspanol} target="_blank" variant="success">
                             CV en Español
                         </Button>
                     </Col>
