@@ -16,7 +16,7 @@ function App() {
       <Container>
         <Row>
           <Col xs={12} >
-            <Image src={Banner} className='contenedor img-responsiva' style={{borderRadius: '2% 2% 0% 0%' }} />
+            <Image src={Banner} className='contenedor img-responsiva' style={{ borderRadius: '2% 2% 0% 0%' }} />
           </Col>
         </Row>
         <Row>
@@ -25,7 +25,9 @@ function App() {
               <Card.Body>
                 <Container>
                   <Row>
-                    <Titulo />
+                    <Col>
+                      <Titulo />
+                    </Col>
                   </Row>
                   <Row>
                     <hr className='opaco divisor' />

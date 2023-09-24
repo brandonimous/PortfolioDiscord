@@ -178,18 +178,18 @@ body {
   overflow: hidden;
 }
 
+
+
+
 @media (max-width: 768px) {
-  .texto-responsivo {
-    font-size: larger !important;
-  }
   .boton-responsivo {
     font-size: medium !important;
     padding: 3% 5% !important;
   }
 
   .iconos {
-    width: 20%;
-    margin: 10% 15% ;
+    width: 40%;
+    margin: 5% 10% ;
   }
 
   .contenedor-responsivo{
@@ -215,6 +215,11 @@ body {
     margin: 5%;
     height: auto;
     width: 90%;
+  }
+
+  .bold{
+    font-size: x-large !important;
+    padding-top: 5%;
   }
   
 }

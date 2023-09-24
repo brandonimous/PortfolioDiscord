@@ -17,10 +17,6 @@ const Tecnologias = () => {
                     nombre="HTML" />
             </Col>
             <Col>
-                <Etiqueta color={{ color: '#006bc0' }}
-                    nombre="Javascript" />
-            </Col>
-            <Col>
                 <Etiqueta color={{ color: '#90c53f' }}
                     nombre="Express.js" />
             </Col>
