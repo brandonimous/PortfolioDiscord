@@ -3,7 +3,7 @@ import TarjetaProyecto from "./TarjetaProyecto"
 
 import Sislab from '../../img/proyectos/sislab-img-min.jpeg'
 import Portfolio from '../../img/proyectos/portfolio-img-min.png'
-import Sieh from '../../img/proyectos/sieh-img-min.png'
+import Sieh from '../../img/proyectos/sieh-img-min.jpeg'
 
 const Proyectos = () => {
     return (
